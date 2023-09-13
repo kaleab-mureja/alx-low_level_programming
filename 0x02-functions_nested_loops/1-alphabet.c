@@ -1,14 +1,21 @@
- #include "main.h"
+#include "main.h"
 
- /** 
- * print_alphabet - prints lowercase alphabets
- */
- void print_alphabet(void) 
-{   
-     char la;
+/**
+ * main - entry block
+ * no argument
+ * Return: 0
+ **/
 
-    for (la ='a' ;la <= 'z' ; la++)
-          _putchar (la);
+int main(void)
+{
+	char ermias[] = "_putchar";
 
-     _putchar ('\n') ;
+	int c;
+
+	for (c = 0; c < 8; c++)
+	{
+		_putchar(ermias[c]);
+	}
+	_putchar('\n');
+	return (0);
 }  
