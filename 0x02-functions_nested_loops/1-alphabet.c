@@ -1,21 +1,18 @@
 #include "main.h"
 
 /**
- * main - entry block
- * no argument
- * Return: 0
- **/
-
-int main(void)
+ * print_alphabet - print alphabet
+ *
+ * Return: void
+ */
+void print_alphabet(void)
 {
-	char ermias[] = "_putchar";
-
-	int c;
-
-	for (c = 0; c < 8; c++)
+	char letter = 'a';
+	
+	while (letter <= 'z')
 	{
-		_putchar(ermias[c]);
+		_putchar(letter);
+		letter++;
 	}
 	_putchar('\n');
-	return (0);
 }  
