@@ -1,16 +1,19 @@
 #include "main.h"
 
+/**
+ * *print_most_numbers - prints
+ * * owned by Bwave ICT
+ * *Return: void
+ * */
+
 void print_most_numbers(void)
 {
-	int i = 0;
-	while (i <= 9)
+	char c;
+
+	for (c = '0'; c <= '9'; c++)
 	{
-		if (i == 2 || i == 4)
-		{
-			i++;
-			continue;
+		if (!(c == '2' || c == '4'))
+		_putchar(c);
 		}
-		_putchar(i++ + '0');
-	}
 	_putchar('\n');
-}
+}}

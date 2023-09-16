@@ -1,12 +1,18 @@
 #include "main.h"
 
+/**
+ * *print_numbers - print 0123456789
+ * * owned by Bwave ICT
+ * *Return: void
+ * */
+
 void print_numbers(void)
 {
-	int i=0;
+	char c;
 
-	while (i <= 9)
+	for (c = '0'; c <= '9'; c++)
 	{
-		_putchar(i++ + '0');
-	}
+		_putchar(c);
+		}
 	_putchar('\n');
 }
