@@ -1,18 +1,20 @@
-nclude "main.h"
+#include "main.h"
 
 /**
- * 	* _strlen - gives length of string
- * 		* @s: pointer to character array
- * 			* Description: gives length of string
- * 				* Return: int
- * 				*/
+ * _strlen - Gives the length of a string.
+ * @s: Pointer to a character array.
+ *
+ * Description: Gives the length of a string.
+ * Return: Length of the string as an int.
+ */
 int _strlen(char *s)
 {
-		int i = 0;
+	int i = 0;
 
-			while (*(s + i) != '\0')
-					{
-								i++;
-									}
-				return (i);
+	while (*(s + i) != '\0')
+	{
+		i++;
+	}
+
+	return (i);
 }
