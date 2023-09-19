@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
-		* swap - Swaps two characters in a string.
-		* @s: String.
-		* @index1: First index to be swapped.
-		* @index2: Second index to be swapped.
-		*
-		* Description: Swaps two characters in a string.
-		* Return: void.
+	* swap - Swaps two characters in a string.
+	* @s: String.
+	* @index1: First index to be swapped.
+	* @index2: Second index to be swapped.
+	*
+	* Description: Swaps two characters in a string.
+	* Return: void.
  */
 void swap(char *s, int index1, int index2)
 {
