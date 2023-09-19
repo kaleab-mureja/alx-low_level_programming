@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
- * print_array - Prints all numbers in an array.
- * @a: Array of integers.
- * @n: Number of elements to print.
- *
- * Description: Prints all numbers in an array.
- * Return: void.
+		* print_array - Prints all numbers in an array.
+		* @a: Array of integers.
+		* @n: Number of elements to print.
+		*
+		* Description: Prints all numbers in an array.
+		* Return: void.
  */
 void print_array(int *a, int n)
 {

@@ -2,10 +2,10 @@ include "main.h"
 
 
 /**
-	* _puts - prints a string followed by newline to screen
-	* @str: string to be printed
-	* Description: prints a string followed by newline to screen
-	* Return: void
+		* _puts - prints a string followed by newline to screen
+		* @str: string to be printed
+		* Description: prints a string followed by newline to screen
+		* Return: void
 */
 void _puts(char *str)
 {
