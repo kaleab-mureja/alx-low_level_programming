@@ -1,42 +1,26 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
-	* swap - Swaps two characters in a string.
-	* @s: String.
-	* @index1: First index to be swapped.
-	* @index2: Second index to be swapped.
-	*
-	* Description: Swaps two characters in a string.
-	* Return: void.
- */
-void swap(char *s, int index1, int index2)
-{
-	char tmp = *(s + index2);
-	*(s + index2) = *(s + index1);
-	*(s + index1) = tmp;
-}
-
-/**
-		* rev_string - Reverses a given string.
-		* @s: String to be reversed.
-		*
-		* Description: Reverses a given string.
-		* Return: void.
+ * rev_string - reverses a string
+ * _putchar - print each character
+ * @s: char to check
+ *
+ * Description: This will reverse a string
+ * Return: 0 is success
  */
 void rev_string(char *s)
 {
-	int leftPointer = 0;
-	int rightPointer = -1;
+	int a = 0, b, c;
+	char d;
 
-	while (*(s + ++rightPointer) != '\0')
+	while (s[a] != '\0')
 	{
+		a++;
 	}
-
-	rightPointer--;
-
-	while (leftPointer <= rightPointer)
+	c = a - 1;
+	for (b = 0; c >= 0 && b < c; c--, b++)
 	{
-		swap(s, leftPointer++, rightPointer--);
+		d = s[b];
+		s[b] = s[c];
+		s[c] = d;
 	}
 }
